@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 660px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.background {
+    position: relative;
+    height: 782px;
+    background-image: url('../img/background-image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.site-info {
+    position: absolute;
+    left: 30%;
+    top: 30%;
+
+}
+
+.site-hero__content {
+    width: 285px;
+    color: #fff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.site-link {
+    width: 164px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 15px 24px;
+    color: #fff;
+    background-color: #1E90FF;
+}
+
+.button {
+    margin-right: 12px;
+}
+
+.site-content__title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 2px;
+    color: #222222;
+    margin-top: 54px;
+    border-bottom: 1px solid #1E90FF;
+}
+
+.parent {
+    margin-top: 24px;
+}
+
+.child {
+    display: flex;
+    margin-top: 10px;
+}
+
+.site-content__video {
+    margin-right: 16px;
+}
+
+.video-info-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    color: #222222;
+    cursor: pointer;
+}
+
+.video-info-text:hover {
+    color: #1E90FF;
+}
+
+.video-info-text:active {
+    opacity: 0.6;
+}
+
+.viedo-info-inner > div {
+    display: inline-block;
+    margin-right: 25px
+}
+
+.viedo-info-inner span {
+    color: #888;
+}
+
+.span-logo {
+    margin-right: 5px;
+}
+
+.next-page {
+    border-radius: 4px;
+    background-color: #1E90FF;
+    padding: 12px;
+    text-align: center;
+    margin-top: 23px;
+    margin-bottom: 10px;
+}
+
+.next-page a {
+    color: #fff;
+    text-decoration: none;
+}
